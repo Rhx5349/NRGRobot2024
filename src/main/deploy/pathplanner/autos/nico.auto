@@ -1,0 +1,109 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.32,
+      "y": 5.54
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootSubwooferShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Go to amp side spike"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeUntilNoteDetected"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Go from amp side spike to subwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootSubwooferShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "n-gon"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeUntilNoteDetected"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "cy"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootSubwooferShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "nicos mom"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeUntilNoteDetected"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "richards sister"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ShootSubwooferShot"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "kai"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "IntakeUntilNoteDetected"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
